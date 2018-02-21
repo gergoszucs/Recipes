@@ -1,5 +1,4 @@
 import { RecipeDetailComponent } from './recipes/recipe-detail/recipe-detail.component';
-import { Recipe } from './recipes/recipe.model';
 import { RecipeStartComponent } from './recipes/recipe-start/recipe-start.component';
 import { ShoppingListComponent } from './shopping-list/shopping-list.component';
 import { RecipesComponent } from './recipes/recipes.component';
