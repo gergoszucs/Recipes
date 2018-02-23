@@ -30,4 +30,8 @@ export class AuthService {
       .then((token: string) => (this.token = token));
     return this.token;
   }
+
+  isAuthenticated() {
+    return this.token != null;
+  }
 }
